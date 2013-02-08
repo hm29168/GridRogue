@@ -16,8 +16,10 @@ public class GridRogueRunner {
 	    Bug alice = new Bug();
 	    alice.setColor(Color.ORANGE);
 	    Bug bob = new Bug();
+	    RoguePlayer carol = new RoguePlayer();
 	    world.add(new Location(7, 8), alice);
 	    world.add(new Location(5, 5), bob);
+	    world.add(new Location(3, 3), carol);
 	    world.show();
 	}
 
