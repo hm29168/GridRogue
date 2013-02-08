@@ -1,0 +1,20 @@
+import info.gridworld.actor.Bug;
+
+public class CircleBug extends Bug {
+  
+  private int radius, distGone;
+  
+  public CircleBug(int radius) {
+    this.radius = 0;
+    distGone = 0;
+  }
+  
+  public void act() {
+    if(distGone < radius) {
+      move();
+      distGone++;
+    } else {
+      turn();
+    }
+  }
+}
