@@ -21,6 +21,7 @@ public class GridRogueRunner {
 	    world.add(new Location(5, 5), bob);
 	    world.add(new Location(3, 3), carol);
 	    world.show();
+	    new IOGUI();
 	}
 
 }
